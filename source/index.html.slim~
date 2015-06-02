@@ -1,0 +1,38 @@
+---
+title: 合同会社tnzk.org
+---
+div.page-header
+  h1
+   a href="/"
+     span tnzk.org, LLC
+  p.lead コンピュータビジョンを活用したクリエイター支援システムの提供 / 各種依頼に応じた Web システムの開発
+h3 会社概要
+dl.dl-horizontal
+  dt 会社名
+  dd 合同会社tnzk.org
+  /! dt 事業内容
+  /! dd ...
+  dt 設立
+  dd 平成27年2月18日
+  dt 代表
+  dd = link_to '濱口恭平', 'http://tnzk.org'
+  dt 本店所在地
+  dd 千葉県柏市若柴178-4KOIL5階KOILガレージ ルーム10
+  dt 資本金
+  dd 1,000,000円
+h3 事業内容
+
+- data.works.each do |work| 
+  div.row.work
+    div.col-md-3.thumbnail
+      p = image_tag work[1]['thumb']
+    div.col-md-9
+      h4 = work[1][:name]
+      p = work[1][:desc]
+      - if work[1][:url]
+        p = link_to work[1][:url], work[1][:url]
+      p = work[1][:explain]
+      p = work[1][:date]
+      p = work[1][:technology]
+h3 お問い合わせ
+p ご依頼やご相談など、お気軽に contact tnzk.org までご連絡ください。

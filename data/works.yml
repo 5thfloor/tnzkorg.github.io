@@ -1,0 +1,16 @@
+uchinoko:
+  name: うちの子まとめβ
+  desc: 
+  explain: オリジナルキャラのプロフィールまとめ作成サービス "うちの子まとめβ" の開発・運営をしています。
+  thumb: work-01-uchinoko.png
+  url: http://www.uchinokomato.me
+mangaxjp:
+  name: MangaX の開発
+  thumb: work-00-nothing.png
+  explain: スマートフォン向けの Web コミックサイト "MangaX" を開発しました。
+  thumb: work-02-mangaxpng.png
+  url: http://mangax.jp
+rat:
+  name: スマートフォンアプリ向けライブラリの開発
+  explain: ----
+  thumb: work-00-nothing.png
